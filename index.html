@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moddy - Discord Bot</title>
     <meta name="description" content="Moddy is a powerful Discord bot for moderation, fun, giveaways, and more!" />
-    
-   
-    <script type="module" crossorigin src="./assets/index.C7HOU__0.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index.BC6qR9ch.css">
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
   </head>
   <body>
     <div id="root"></div>
-
-    <noscript>
-    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
